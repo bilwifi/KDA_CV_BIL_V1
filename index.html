@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bil Wifi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .wifi-sidebar {width: 120px;background: #222;}
+        #main {margin-left: 120px}
+        #myNavbar {display: none;}
+        @media only screen and (max-width: 1024px) {
+          #main {margin-left: 0}
+          #nav{display: none;}
+          #myNavbar{display: block;}
+        }
+    </style>
+</head>
+<body class="black">
+<nav class="wifi-sidebar wifi-bar-block wifi-small wifi-hide-small wifi-center" id="nav">
+    <img src="img/bil.jpeg" style="width:100%">
+    <a href="#profile" class="wifi-bar-item wifi-button wifi-padding-large wifi-black">
+      <i class="fa fa-user wifi-xxlarge"></i>
+      <p>PROFIL</p>
+    </a>
+    <a href="#parcours" class="wifi-bar-item wifi-button wifi-padding-large wifi-hover-black">
+      <i class="fa fa-graduation-cap wifi-xxlarge"></i>
+      <p>PARCOURS</p>
+    </a>
+    <a href="#contact" class="wifi-bar-item wifi-button wifi-padding-large wifi-hover-black">
+      <i class="fa fa-envelope wifi-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+</nav>
+<!-- Navbar smartphone -->
+<div class="wifi-top wifi-hide-large wifi-hide-medium" id="myNavbar">
+  <div class="wifi-bar wifi-black wifi-opacity wifi-hover-opacity-off wifi-center wifi-small">
+    <a href="#profils" class="wifi-bar-item wifi-button" style="width:25% !important">PROFIL</a>
+    <a href="#parcours" class="wifi-bar-item wifi-button" style="width:25% !important">PARCOURS</a>
+    <a href="#contact" class="wifi-bar-item wifi-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+<div id="content" class="wifi-padding-large">
+    <header class="wifi-container wifi-padding-32 wifi-center wifi-black" id="profile">
+        <h1 class="wifi-jumbo"><span class="wifi-hide-small">I'm</span> Peniel Dialu WiFi</h1>
+        <p>Web Developer</p>
+        <img src="img/wifi.png" alt="boy" class="wifi-image" width="992" height="1108">
+    </header>
+  <div class="wifi-content wifi-justify wifi-text-grey wifi-padding-64" >
+    <h2 class="wifi-text-light-grey">Qui suis-je ?</h2>
+    <hr style="width:200px" class="wifi-opacity">
+    <p>
+      Je m'appel Peniel DIALUNDAMA, surnomé WiFi <br>
+      J’ai toujours été passionné par l’informatique en général, en fait je suis tombé dedans petit. Mon premier ordinateur était un HP, sur lequel j'utilisais pour jouer à des jeux vidéos pour pc .Puis au collège, avec mon premier PC, je bidouillais sur la maintenance des ordinateurs des potes et des personnes du quartier.
+En partant étudier à l’université, je savais juste que je voulais être dans le milieu de l’informatique, et cela englobe tellement de métiers différents, que je ne savais pas vraiment où j’allais atterrir. A un moment je voulais être ingénieur en maintenance informatique. Mais au gré des rencontres et lorsque je découvre la logique de programmation, je me suis retrouvé dans l’univers du web. 
+Aujourd’hui je suis apprenant à la Kinshasa Digital Academy et  je fais mon métier par passion et parce que j’aime concevoir des choses, et autant qu’elles soient utiles et résolvent des problèmes !
+    </p>
+    <h2 class="wifi-text-light-grey" id="parcours">Mon parcours</h2>
+    <hr style="width:200px" class="wifi-opacity">
+    <br>
+    <br>
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>2020</h2>
+          <p>
+            FORMATION DEVELOPPEUR WEB <br>
+            <span class="academy">KINSHASA DIGITAL ACADEMY</span>
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2016 - 2019</h2>
+          <p>
+            GRADUAT <br>
+            INFORMATIQUE INDUSTRIELLE ET RESEAUX<br>
+            <span class="academy">ISPT-KIN</span>
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2015 – 2016</h2>
+          <p>
+            PREPARATOIRE <br>
+            <span class="academy">ISPT-KIN</span>
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2010 - 2015 </h2>
+          <p>
+            HUMANITE <br>
+            ELECTRONIQUE INDUSTRIEL
+            <span class="academy">ITI MASINA </span>
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2008 - 2010 </h2>
+          <p>
+            SECONDAIRE <br>
+            <span class="academy">COLLEGE BONSOMI</span>
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2003 - 2008 </h2>
+          <p>
+           PRIMAIRE<br>
+            <span class="academy">EP1 N'DJILI</span>
+          </p>
+        </div>
+      </div>
+    </div> 
+
+    <h2 class="wifi-text-light-grey">Mes Contacts</h2>
+    <hr style="width:200px" class="wifi-opacity">
+    <div id="contact" style="color: aliceblue; text-align: center;">
+     <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="dark" data-vanity="peniel-dialundama-74515413b"><a class="LI-simple-link" href='https://cd.linkedin.com/in/peniel-dialundama-74515413b?trk=profile-badge'>Peniel Dialundama</a></div>
+     <br>
+     <div class="footer-social-icons wifi-xxlarge">
+       <a href="mailto:dialundamapeniel@gmail.com"><i class="fa fa-envelope"></i></a>
+       <a href="https://www.facebook.com/peniel.dialu"><i class="fa fa-facebook"></i></a>
+       <a href="https://www.linkedin.com/in/peniel-dialundama-74515413b/"><i class="fa fa-linkedin"></i></a>
+       <a href="https://www.instagram.com/penieldialu/"><i class="fa fa-instagram "></i></a>
+       <a href="https://github.com/bilwifi"><i class="fa fa-github"></i></a>
+       <a href="https://bitbucket.org/bilwifi"><i class="fa fa-bitbucket-square"></i></a>
+     </div>
+    </div>
+  </div>
+
+</div>
+<!-- Script integration linkdin badge -->
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+</body>
+</html>

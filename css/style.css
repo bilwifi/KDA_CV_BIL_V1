@@ -1,0 +1,152 @@
+.body{
+    display: block;
+    height: 620px ;
+    background-color: antiquewhite;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+.black{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.wifi-sidebar {
+    width: 120px;
+    background: #222;
+}
+.wifi-bar-block.wifi-center .wifi-bar-item {
+    text-align: center;
+}
+.wifi-button:hover {
+    color: 
+#000 !important;
+background-color:
+    #ccc !important;
+}
+.wifi-bar-block .wifi-bar-item {
+    /* width: 100%; */
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+.wifi-center {
+    text-align: center !important;
+}
+
+.wifi-small {
+    font-size: 12px !important;
+}
+.wifi-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: fixed !important;
+    overflow: auto;
+}
+.wifi-padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+.wifi-container, .wifi-panel {
+    padding: 0.01em 16px;
+}
+
+#main {
+    margin-left: 120px;
+}
+.wifi-main, #main {
+    transition: margin-left 0.4s ease 0s;
+}
+.wifi-padding-large {
+    padding: 12px 24px !important;
+}
+
+.wifi-text-grey, .wifi-hover-text-grey:hover, .wifi-text-gray, .wifi-hover-text-gray:hover {
+    color: rgb(117, 117, 117) !important;
+}
+
+.wifi-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+
+.wifi-justify {
+    text-align: justify !important;
+}
+.wifi-content {
+    max-width: 980px;
+}
+.wifi-content, .wifi-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.wifi-opacity, .wifi-hover-opacity:hover {
+    opacity: 0.6;
+}
+hr {
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-width: 1px 0px 0px;
+    border-image: initial;
+    border-top: 1px solid rgb(238, 238, 238);
+    margin: 20px 0px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0px;
+    overflow: visible;
+}
+
+white:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+}   
+
+.wifi-wide {
+    letter-spacing: 4px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.wifi-white, .wifi-hover-white:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.wifi-dark-grey, .wifi-hover-dark-grey:hover, .wifi-dark-gray, .wifi-hover-dark-gray:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(97, 97, 97) !important;
+}
+
+.wifi-image{
+    max-width:100%;height:auto;
+}
+img{
+    vertical-align:middle;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    
+}
+.wifi-xlarge{font-size:24px!important}.wifi-xxlarge{font-size:36px!important}.wifi-xxxlarge{font-size:48px!important}
+
+
+.wifi-text-light-grey, .wifi-hover-text-light-grey:hover, .wifi-text-light-gray, .wifi-hover-text-light-gray:hover {
+    color: 
+    #f1f1f1 !important;
+}
